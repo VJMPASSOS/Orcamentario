@@ -109,7 +109,7 @@ function Dashboard() {
                     const tmpIncomes: IncomeProps[] = [...getIncomes, newIncome]
                     setIncomes(tmpIncomes)
                     incomeService.set(tmpIncomes)
-                    setCurrentPage(ActionPages.listaD)
+                    setCurrentPage(ActionPages.listaR)
                 }}
                 />;
 

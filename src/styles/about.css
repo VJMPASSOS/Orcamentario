@@ -1,0 +1,42 @@
+h1{
+    color: rgb(255, 245, 238);
+}
+h2{
+    color: rgb(255, 245, 238);
+    margin: auto;
+    width: 80vw;
+    text-align: justify;
+    padding-top: 3vw;
+    padding-bottom: 2vw;
+}
+
+p{
+    font-size: 17px;
+    margin: auto;
+    width: 75vw;
+    text-align: justify;
+    padding-bottom: 3vw;
+}
+
+ul li {
+    list-style-type: none; 
+    position: relative;
+    padding-left: 2.5em; 
+    margin-bottom: 1.5em; 
+    margin: auto;
+    width: 70vw;
+    text-align: justify;
+    padding-bottom: 3vw; 
+  }
+  
+  ul li::before {
+    content: '';
+    background-image: url('../assets/coin.png'); 
+    background-size: 1.5em 1.5em;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0.2em;
+    width: 1.5em; 
+    height: 1.5em; 
+  }

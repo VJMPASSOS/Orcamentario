@@ -73,7 +73,7 @@ const IncomeList = ({getIncomes, setIncomes}: IncomeListProps)=>{
                                 onClick={()=> deleteIncome(income.id)}
                                 />
                                 ID:{income.id} R${income.value}
-                                <br />PARA:{income.description} 
+                                <br />DE:{income.description} 
                                 </div>
                                 <button onClick={() => startEditing(income)}>Editar</button>
                                 <button onClick={() => deleteIncome(income.id)}>Deletar</button>

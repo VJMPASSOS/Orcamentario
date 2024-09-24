@@ -21,15 +21,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={Logo} alt="Logo_vital" />
+        <img src={Logo} alt="Logo_vital" width={200} height={180} />
       </header>
       <Router>
-        <div className='App'>
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/login">Login</Link></li>
-          </ul>
+        <div className='barra'>
+          <div id='links'>
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/login">Login</Link>
+          </div>
         </div>
 
         <ExpenseContext.Provider value={{ expenseService }}>
